@@ -10,33 +10,63 @@ This project is a simple form survey built with react hook form and router dom i
 ##### Result Survey Table Page
 ![Preview](./src/assets/image%20copy.png)
 
-## How To Run This Project
 
-Clone this project url :
+## How to Run This Project
 
-``` https://github.com/VsalCode/fgo24-react-form.git ```
+### 1. Manually
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/VsalCode/fgo24-react-form.git
+   ```
 
-after entering the folder, install the dependencies:
+2. Navigate to the project folder:
+   ```bash
+   cd fgo24-react-form
+   ```
 
-```npm install```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-To run the web you can use the command :
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-```npm run dev```
+5. Open your browser and visit `http://localhost:5173` (or the port shown in the terminal).
 
-##  dependencies used
+### 2. With Docker
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/VsalCode/fgo24-react-form.git
+   ```
+
+2. Navigate to the project folder:
+   ```bash
+   cd fgo24-react-form
+   ```
+
+3. Build the Docker image:
+   ```bash
+   docker build . -t form:latest
+   ```
+
+4. Run the Docker container:
+   ```bash
+   docker run -p 8080:80 -d form:latest
+   ```
+
+5. Visit the app at `http://localhost:8080`.
+
+## Dependencies
 - Vite
 - Tailwind CSS
 - React Hook Form
 - React Router DOM
 
-
-## How To Contribute
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+## How to Contribute
+Pull requests are welcome! For major changes, please open an issue first to discuss your proposed changes. Ensure tests are updated as needed.
 
 ## License
-
-[ISC](https://opensource.org/license/isc-license-txt)
+[MIT](https://opensource.org/license/mit)
